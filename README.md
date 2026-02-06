@@ -4,14 +4,11 @@ This project provisions a secure AWS infrastructure using Terraform to deploy a 
 Public access is provided through an Application Load Balancer (ALB), while outbound internet access is enabled via a NAT Gateway.
 
 📌 Architecture Overview :
+
 Internet
-   |
 [ Application Load Balancer ]
-   |
 [ Private EC2 (Docker + Strapi) ]
-   |
 [ NAT Gateway ]
-   |
 AWS Services (Docker pull, updates)
 
 Key Design Principles :
